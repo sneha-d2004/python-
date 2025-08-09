@@ -22,18 +22,18 @@ list=[1,4,5,6,9]
 rev=list[::-1]
 print(rev)
 #5. Remove duplicates from list.
-list3=[1,1,2,2,3,4,4,5,6]
+'''list3=[1,1,2,2,3,4,4,5,6]
 unique=list(set(list3))
-print(unique)
+print(unique)'''
 #6. Sort a list of strings by length.
 words=["apple","bat","banana","dog"]
 sorted_words=sorted(words,key=len)
 print(sorted_words)
 #7. Find the second largest number in the list.
-list2=[10,20,4,45,99]
+'''list2=[10,20,4,45,99]
 list2=list(set(list2))
 list2.sort()
-print(list2[-2])
+print(list2[-2])'''
 #8. Find sum of all nested list elements.
 lis1=[[1,2],[3,4],[5]]
 total=sum(sum(i) for i in lis1)
@@ -48,10 +48,10 @@ b=[2,5]
 merged=sorted(a+b)
 print(merged)
 #11. Convert tuple to list and back.
-t=(1,2,3)
+'''t=(1,2,3)
 lis=list(t)
 t2=tuple(lis)
-prit(lis,t2)
+prit(lis,t2)'''
 #12. Check if the tuple contains a value.
 t=(1,2,3,4)
 print(3 in t)
